@@ -1,0 +1,107 @@
+/*	\\---/*	\\---------------------------------------------------------------------------------------------------------------------------------------------//
+*	 \\---------------SCHOOL MANAGMENT PROGRAM -------------- Using C language ------------------- in May 2019------------------------------------//
+*	  \\------------------------------------------------------------------------------------------Updade on 22.Jan-2021--------------------------//
+*	   \\---------------------------------------------------------------------------------------------------------------------------------------//
+*	    \\-------------------------------------------------------BY - Er. Kaushal Prajapat-----------------------------------------------------//
+*		 \\																																	  //
+*		  \\ Functunalities -- 																												 //
+*							1.Library Management 
+*							2.School Managment
+*							3.Principle Page
+*							4.Managment Shell
+*							5.App Rating System and Record
+*
+*
+*
+*  ``````````````````````````For More Information Contact at prajapatkaushal555@gmail.com or Phone . 9772774141`````````````````````//
+*/
+
+
+
+Function or Method in Program
+
+++++ Rating System
+	void rate_app();
+	void viewRating();
+
+
+++++ Home/Main Menu
+	
+	void home();
+	void addstudent();
+	void removestudent();
+	void showstudents();
+	void searchstudent();
+    void viewRating();
+    void editstudent();
+
+++++ Password System
+	
+	void password_managment();
+	void password_library();
+	void password_principle();
+
+
+++++ Librarion
+
+	void addbook();
+	void removebook();
+	void searchbook();
+	void editbook();
+	void viewbooks();
+	void exit();
+
+++++ Student
+    
+    void issue_book();
+    void return_book();
+    void return_update_book(int d);
+    void update_return();
+    void give_book();
+    void update();
+    void get_issued_data();
+
+++++ Main-Menus
+	
+	void home();
+	void mainmenulibrary();
+	void mainmenu_managment_cell();
+	void mainmenu_student();
+	void mainmenu_principle();
+	void borrow_return_menu();
+
+
+
+++++ Borrow or Return Book Menu < Student
+	
+	void back_book();
+    void borrow_return_menu_issue_book();
+	void borrow_return_menu_return_book();
+	void borrow_return_menu_get_issued_data();
+	
+++++ Managment Shell    
+    
+    void student_searchbook();
+    void student_viewbooks();
+    void student_searchstudent();
+    void student_showstudents();
+
+++++ Public
+	
+	void aboutschool();
+
+++++ HOME Page
+	
+	void home();
+	void home_return_func();
+	
+++++ Extra
+	
+	void delay(unsigned int mseconds);
+	void gotoxy(int, int);
+	void get_time();
+
+
+++++ Unknown or Forgot
+	
+	void return_update(int x);

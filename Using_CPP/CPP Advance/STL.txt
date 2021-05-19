@@ -1,0 +1,45 @@
+//Kaushal Prajapat 12.05.2021
+
+//STL is Standard template Library
+//Powerful set of C++ template classes
+
+//STL has three well structured components
+
+//1.Container -- Collection of obj. of certain kind
+//Vector -- Generate dynamic array
+//2.Algorithm -- Perform some action like sorting searching etc
+//functions -- sort(),reverse() etc
+//3.Iterators -- used to point the container
+//it's bridge between container and alogo
+
+//Containers contain data algo. perform action on that data
+//Iterators used to access the data or point to container
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    list <float> l1;
+    vector <int, char>
+
+}
+
+
+
+vector : replicates arrays
+queue : replicates queues
+stack : replicates stack
+priority_queue : replicates heaps
+list : replicates linked list
+set : replicates trees
+map : associative arrays
+
+Classification of Containers in STL
+Containers are classified into four categories :
+
+Sequence containers : Used to implement data structures that are sequential in nature like arrays(array) and linked list(list).
+Associative containers : Used to implement sorted data structures such as map, set etc.
+Unordered associative containers : Used to implement unsorted data structures.
+Containers adaptors : Used to provide different interface to the sequence containers.
